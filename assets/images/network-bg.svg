@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <rect width="100%" height="100%" fill="#000033"/>
+  <g fill="none" stroke-width="0.5">
+    <!-- Generate random network lines -->
+    <g stroke="#00AAFF" opacity="0.3">
+      <!-- Horizontal network lines -->
+      <path d="M0,100 Q250,150 500,100 T1000,150" />
+      <path d="M0,200 Q250,250 500,200 T1000,250" />
+      <path d="M0,300 Q250,350 500,300 T1000,350" />
+      <path d="M0,400 Q250,450 500,400 T1000,450" />
+      <path d="M0,500 Q250,550 500,500 T1000,550" />
+    </g>
+    <g stroke="#00FFCC" opacity="0.3">
+      <!-- Vertical network lines -->
+      <path d="M100,0 Q150,150 100,300 T150,600" />
+      <path d="M300,0 Q350,150 300,300 T350,600" />
+      <path d="M500,0 Q550,150 500,300 T550,600" />
+      <path d="M700,0 Q750,150 700,300 T750,600" />
+      <path d="M900,0 Q950,150 900,300 T950,600" />
+    </g>
+    <!-- Network nodes -->
+    <g fill="#00FFCC">
+      <circle cx="100" cy="100" r="3" />
+      <circle cx="300" cy="150" r="4" />
+      <circle cx="500" cy="200" r="5" />
+      <circle cx="700" cy="250" r="4" />
+      <circle cx="900" cy="300" r="3" />
+      <circle cx="200" cy="350" r="5" />
+      <circle cx="400" cy="400" r="4" />
+      <circle cx="600" cy="450" r="3" />
+      <circle cx="800" cy="500" r="5" />
+    </g>
+  </g>
+</svg>
