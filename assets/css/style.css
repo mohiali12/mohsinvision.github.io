@@ -85,7 +85,7 @@ section:nth-child(even) {
     left: 0;
     width: 100%;
     z-index: 1000;
-    background-color: #0a0f30;
+    background-color: #000033;
     transition: all 0.4s ease;
 }
 
